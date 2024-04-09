@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Colore di sfondo */
+    color: #fff;
+}
+
+.navbar {
+    background-color: #111; /* Colore di sfondo navbar */
+    padding: 20px 0;
+    position: relative; /* Per consentire il posizionamento dei luci */
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px; /* Dimensioni del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #7289DA; /* Colore di sfondo link al passaggio del mouse */
+}
+
+.discord-btn {
+    background-color: #7289DA; /* Colore del bottone Discord */
+    color: #fff;
+    padding: 11px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.discord-btn:hover {
+    background-color: #677bc4; /* Colore del bottone Discord al passaggio del mouse */
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 18px;
+    margin-left: 10px; /* Aggiungi margine tra il testo e l'immagine */
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Aggiungi stili per il tricolore */
+#tricolor {
+    background: linear-gradient(to right, #008C45, #FFFFFF, #D2232A); /* Tricolore italiano */
+    height: 20px;
+}
+
+/* Aggiungi stili per lo spazio contenuto */
+#content {
+    padding: 50px 0;
+}
+
+#content .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
