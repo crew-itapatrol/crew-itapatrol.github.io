@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITA Crew | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="logo.png">
+    <style>
+        /* CSS per i pulsanti delle bandiere */
+        .flag-button {
+            display: inline-block;
+            width: 70px; /* Imposta la larghezza desiderata */
+            height: 40px; /* Imposta l'altezza desiderata */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px; /* Aggiunge un margine a sinistra per separare i pulsanti */
+        }
+
+        .usa-flag {
+            background-image: url('usa.png'); /* Percorso dell'immagine della bandiera USA */
+        }
+
+        .italy-flag {
+            background-image: url('ita.png'); /* Percorso dell'immagine della bandiera italiana */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="logo.jpg" alt="ITAPATROL" class="logo">
+                </a>
+                <span class="logo-text">ITA CREW</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="rules.html">Crew Rules</a></li>
+                    <li><a href="guide.html">New Members Guide</a></li>
+                    <li><a href="leaders.html">Staff and Leaders</a></li>
+                    <li><a href="gallery.html">Media Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="https://discord.gg/nZRtp6sFHZ" target="_blank" class="discord-btn">Join on Official ITA Crew DS!</a>
+            <!-- Pulsante aggiuntivo -->
+            <!-- Pulsanti delle bandiere -->
+            <a href="index.html" class="flag-button usa-flag"></a>
+            <a href="index_ita.html" class="flag-button italy-flag"></a>
+        </div>
+        <div class="navbar-bg"></div>
+    </div>
+</header>
+
+<section id="tricolor">
+    <div class="tricolor"></div>
+</section>
+
+<header>
+    <video width="100%" height="auto" autoplay muted id="backgroundVideo">
+        <source src="video.mp4" type="video/mp4">
+        Il tuo browser non supporta il tag video.
+    </video>
+	<section id="tricolor">
+    <div class="tricolor"></div>
+</section>
+
+</header>
+
+<script>
+    var video = document.getElementById("backgroundVideo");
+
+    // Aspetta 15 secondi, poi ferma il video
+    setTimeout(function() {
+        video.pause();
+    }, 15000); // 15 secondi (15000 millisecondi)
+</script>
+
+</body>
+</html>
 
