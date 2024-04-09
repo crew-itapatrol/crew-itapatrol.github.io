@@ -102,3 +102,45 @@ nav ul li a:hover {
     text-align: center;
     width: 100%;
 }
+footer {
+    background-color: #111; /* Colore di sfondo footer */
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    flex: 1; /* Occupa lo spazio rimanente */
+    text-align: center; /* Centra il testo */
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centra i link social */
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links li a:hover {
+    color: #7289DA; /* Cambia colore al passaggio del mouse */
+}
+
+
