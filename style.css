@@ -142,5 +142,30 @@ footer p {
 .social-links li a:hover {
     color: #7289DA; /* Cambia colore al passaggio del mouse */
 }
+#about {
+    padding: 50px 0;
+}
 
+#about h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
+
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
 
