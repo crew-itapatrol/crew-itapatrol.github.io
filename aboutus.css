@@ -87,3 +87,15 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+.discord-btn {
+    background-color: #7289DA; /* Colore del bottone Discord */
+    color: #fff;
+    padding: 11px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.discord-btn:hover {
+    background-color: #677bc4; /* Colore del bottone Discord al passaggio del mouse */
+}
