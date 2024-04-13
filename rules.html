@@ -8,7 +8,116 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+ <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF; /* Testo bianco */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .navbar {
+            background-color: #333;
+            color: #FFFFFF; /* Testo bianco */
+            padding: 10px 0;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Section Styles */
+        #rules {
+            padding: 50px 0;
+        }
+
+        #rules h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #rules h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        #rules p {
+            margin-bottom: 15px;
+        }
+
+        #rules ul {
+            margin-bottom: 30px;
+        }
+
+        #rules ul li {
+            margin-bottom: 10px;
+        }
+
+        #tricolor {
+            background: linear-gradient(to right, #008C45, #FFFFFF, #D2232A); /* Tricolore italiano */
+            height: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #FFFFFF; /* Testo bianco */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .discord-btn {
+            background-color: #7289DA; /* Colore del bottone Discord */
+            color: #fff;
+            padding: 11px 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .discord-btn:hover {
+            background-color: #677bc4; /* Colore del bottone Discord al passaggio del mouse */
+        }
+    </style>
 <header>
     <div class="navbar">
         <div class="container">
