@@ -99,3 +99,7 @@ footer {
 .discord-btn:hover {
     background-color: #677bc4; /* Colore del bottone Discord al passaggio del mouse */
 }
+#tricolor {
+    background: linear-gradient(to right, #008C45, #FFFFFF, #D2232A); /* Tricolore italiano */
+    height: 20px;
+}
